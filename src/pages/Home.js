@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import Destination from "../components/Destination"; 
+import InfluencerReviews from "../components/InfluencerReviews";
 import Footer from "../components/Footer";
 import ExploreSection from "../components/ExploreSection";
 
@@ -19,6 +20,7 @@ const Home = () => {
       <Hero />
       <Destination /> 
       <ExploreSection exploreItems={exploreItems} />
+      <InfluencerReviews />
     </div>
   );
 };
