@@ -9,7 +9,7 @@
   background-size: cover;
   min-height: 100vh;
   color: #333;
-  margin-top: 30px;
+  
   position: relative;
   justify-content: center; /* Center content vertically */
 }
@@ -27,6 +27,7 @@
 
 /* Title and Description */
 .travel-title {
+  margin-top: 30px;
   font-size: 3rem;
   margin-bottom: 10px;
   color: #fff;
