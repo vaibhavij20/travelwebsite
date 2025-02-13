@@ -61,9 +61,7 @@ const TravelPlan = () => {
   return (
     <div className="travel-container">
       <h1 className="travel-title">Plan Your Dream Trip ✈️</h1>
-      <p className="travel-description">
-        Customize your travel experience or choose from existing plans.
-      </p>
+      
 
       <div className="trip-options">
         <button className="create-new-btn" onClick={() => setTrip(null)}>

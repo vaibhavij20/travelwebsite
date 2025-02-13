@@ -1,5 +1,5 @@
 .navbar {
-  position: fixed;  /* Make the navbar fixed at the top */
+  position: fixed;  
   margin-top: 10px;
   margin-left: 10px;
   top: 0;
@@ -14,7 +14,7 @@
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   border-bottom: none;
-  z-index: 10; /* Ensure the navbar is above the hero section */
+  z-index: 10; 
 }
 
 .navbar__logo-link {

@@ -38,7 +38,7 @@ const InfluencerReviews = () => {
 
   return (
     <section className="influencer-reviews">
-      {/* Dynamic Background Image */}
+      {}
       <motion.div
         className="scrolling-container"
         style={{ backgroundImage: `url(${influencers[activeIndex].placeImage})` }}
@@ -83,7 +83,7 @@ const InfluencerReviews = () => {
           </motion.button>
         </div>
 
-        {/* Content Section */}
+       
         <AnimatePresence mode="wait">
           <motion.div
             key={activeIndex}

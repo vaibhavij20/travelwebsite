@@ -5,7 +5,7 @@
   flex-direction: column;
   align-items: center;
   padding: 40px 20px;
-  background: url('https://images.unsplash.com/photo-1506261423908-ea2559c1f24c?q=80&w=2968&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') no-repeat center center fixed;
+  background: url('https://images.unsplash.com/photo-1506261423908-ea2559c1f24c?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGljZWxhbmR8ZW58MHx8MHx8fDA%3D') no-repeat center center fixed;
   background-size: cover;
   min-height: 100vh;
   color: #333;
@@ -62,22 +62,22 @@
 }
 
 .create-new-btn {
-  background-color: #FF6F61;
+  background-color: #374151;
   color: white;
 }
 
 .create-new-btn:hover {
-  background-color: #FF4C3B;
+  background-color:  #6c757d;
   transform: scale(1.05);
 }
 
 .choose-existing-btn {
-  background-color: #6c757d;
+  background-color: #374151;
   color: white;
 }
 
 .choose-existing-btn:hover {
-  background-color: #565b60;
+  background-color: #434a4a;
   transform: scale(1.05);
 }
 
@@ -103,12 +103,12 @@
 
 .trip-form select:focus,
 .trip-form input:focus {
-  border-color: #FF6F61;
+  border-color: #433e3d;
   outline: none;
 }
 
 .plan-btn {
-  background-color: #FF6F61;
+  background-color: #74605e;
   color: white;
   padding: 12px 20px;
   border: none;
@@ -198,7 +198,7 @@
 
 /* Book Now Button */
 .book-btn {
-  background-color: #28a745;
+  background-color: #3f4941;
   color: white;
   padding: 12px 20px;
   border: none;
