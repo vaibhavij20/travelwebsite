@@ -5,7 +5,10 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Service from "./pages/Service";
+
 import Footer from "./components/Footer";
+import TravelPlan from "./pages/TravelPlan"; 
+
 import "./App.css";
 
 // FontAwesome Setup
@@ -23,6 +26,8 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/services" element={<Service />} />
+          <Route path="/travelPlan" element={<TravelPlan />} />
+        
         </Routes>
         <Footer />
       </div>

@@ -1,5 +1,6 @@
 // src/components/Navbar.js
 import React from 'react';
+import { Link } from 'react-router-dom'; // ✅ Import Link for routing
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import './Navbar.css';
 
@@ -7,43 +8,45 @@ function Navbar() {
   return (
     <nav className="navbar">
       <div className="navbar__logo">
-        <a href="/" className="navbar__logo-link" aria-label="Homepage">Trippy</a>
+        <Link to="/" className="navbar__logo-link" aria-label="Homepage">
+          Trippy
+        </Link>
       </div>
       <ul className="navbar__links">
         <li className="navbar__item">
-          <a href="/" className="navbar__link" aria-label="Home">
+          <Link to="/" className="navbar__link" aria-label="Home">
             <i className="fas fa-home" aria-hidden="true"></i> {/* Font Awesome icon */}
             Home
-          </a>
+          </Link>
         </li>
         <li className="navbar__item">
-          <a href="/about" className="navbar__link" aria-label="About">
+          <Link to="/about" className="navbar__link" aria-label="About">
             <i className="fas fa-info-circle" aria-hidden="true"></i> {/* Font Awesome icon */}
             About
-          </a>
+          </Link>
         </li>
         <li className="navbar__item">
-          <a href="/services" className="navbar__link" aria-label="Services">
+          <Link to="/services" className="navbar__link" aria-label="Services">
             <i className="fas fa-briefcase" aria-hidden="true"></i> {/* Font Awesome icon */}
             Service
-          </a>
+          </Link>
         </li>
         <li className="navbar__item">
-          <a href="/contact" className="navbar__link" aria-label="Contact">
+          <Link to="/contact" className="navbar__link" aria-label="Contact">
             <i className="fas fa-phone" aria-hidden="true"></i> {/* Font Awesome icon */}
             Contact
-          </a>
+          </Link>
         </li>
         <li className="navbar__item">
-          <a href="/signup" className="navbar__link navbar__signup" aria-label="Sign Up">
+          <Link to="/signup" className="navbar__link navbar__signup" aria-label="Sign Up">
             Sign Up
-          </a>
+          </Link>
         </li>
         {/* Info icon (optional) */}
         <li className="navbar__item navbar__info-item">
-          <a href="/info" className="navbar__link" aria-label="Information">
+          <Link to="/info" className="navbar__link" aria-label="Information">
             <i className="fas fa-question-circle" aria-hidden="true"></i>
-          </a>
+          </Link>
         </li>
       </ul>
     </nav>
